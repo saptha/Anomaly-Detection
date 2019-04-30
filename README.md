@@ -14,6 +14,8 @@ We started with an analytical approach based on descriptive statistics and machi
 
 Further we can also forecast the future database resource usage and identify the time periods where we need to be on high alert. This is made possible by generating the baselines using the technique of moving averages of the database parameters over a moving window time period. Overall the solution will help us to optimise the end-use experience in IT. 
 
-The approach is based on the following white paper published by KNIME analytics: https://files.knime.com/sites/default/files/inline-images/Anomaly_Detection_Time_Series_final.pdf 
+The approach is based on the following white paper published by KNIME analytics: [KNIME White Paper on Anomaly Detection](https://files.knime.com/sites/default/files/inline-images/Anomaly_Detection_Time_Series_final.pdf) 
 
-Solution is prototyped in R programming. Though this prototype is developed only for database layer, the solution can be extrapolated to other infra layers like network, storage, hosting and applications. 
+Solution is prototyped in R programming. Though this prototype is developed only for database layer, the solution can be extrapolated to other infra layers like network, storage, hosting and applications.
+
+Check out this HTML page generated from RStudio for the prototype. [Solution prototype](index.html) 
